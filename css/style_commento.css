@@ -1,0 +1,24 @@
+html, body
+{
+height: 100%;
+}
+
+h1
+{
+	color: red;
+}
+
+
+body
+{
+  background-image:  url("../img/sfondo.png");
+  background-repeat:                no-repeat;
+  background-position:              right top;
+  margin-right:                         100px;
+  background-attachment:                fixed;
+}
+
+div
+{
+	margin-left: 50px;
+}
