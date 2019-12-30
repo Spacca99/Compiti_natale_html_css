@@ -1,0 +1,58 @@
+div
+{
+
+	align: center;
+}
+
+iframe
+{
+	width:         640px;
+	height:        360px;
+	margin-left:   270px;
+	margin-right:  250px;
+}
+
+h1
+{
+	color: red;
+}
+
+*
+{
+	margin-left:   20px;
+	margin-right:  20px;
+	text-align: center;
+}
+
+body
+{  background-image: url("../img/sfondo.png");
+  background-repeat:                no-repeat;
+  background-position:              right top;
+  margin-right:                         200px;
+  background-attachment:                fixed;
+}
+
+p, h1, h2
+{
+	margin-left:   270px;
+	margin-right:  160px;
+	text-align:   center;
+}
+
+#pulsante {
+	cursor:               pointer;
+	text-align:            center;
+	text-decoration: 	 none;
+	font-size:                 x-large;
+	font: Arial, Helvetica, sans-serif;
+	color:                   #fff;
+	padding:            10px 120px;
+	border: solid 1px     #0076a3;
+	background:           #0095cd;
+	margin-left:  150px;
+}
+
+.foto
+{
+	margin-left: 150px;
+}
