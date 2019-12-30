@@ -1,0 +1,60 @@
+<html>
+
+	<head>
+
+		<title>Commento</title>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+		<!-- Bootstrap -->
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+		<!-- Our CSS -->
+
+		<link rel="stylesheet" href="css/style_commento.css" type="text/css" />
+
+
+	</head>
+
+
+
+	<body>
+
+		<div class="col-lg-4 offset-lg-4 text-center" style="margin-top:12vh">
+
+		<h1>Contattami</h1>
+
+		<form method="POST" action="http://142.93.164.242:8000/" id="myform" class="m-2">
+
+			<div class="bordo-rotondo">
+
+			<label for="user-name">Nome:</label>
+
+			<input type="text" name="nome" id="user-name" class="form-control mb-2" required/>
+
+			<label for="user-email">Email:</label>
+
+			<input type="text" name="email" id="user-email" class="form-control mb-2" required/>
+
+			<label for="user-age">Oggetto:</label>
+
+			<input type="text" name="subject" id="user-age" class="form-control mb-2" required/>
+
+			<label for="user-body">Aggiungi le tue note: </label>
+
+			<textarea class="form-control w-100 mb-2" name="body" id="user-body" placeholder="Inserisci qui le tue note"></textarea>
+
+			<button type="submit" class="btn btn-warning m-3">Invia tutti i tuoi dati</button>
+
+			</div>
+
+		</form>
+
+		</div>
+
+	</body>
+
+</html>
